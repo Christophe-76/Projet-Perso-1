@@ -1,0 +1,30 @@
+h1{
+    font-size: 54px;
+    color: rgb(11, 167, 214);
+    text-shadow: 1px 1px #333;
+    text-align: center;
+
+}
+#menu{
+    background-color: darkseagreen;
+align-content: space-between;}
+ul {
+    background: #283b63;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  ul li {
+    list-style: none;
+  }
+  
+  ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  #title{
+    
+    background-color: darkseagreen;
+    align-content: space-between;
+
+  }
