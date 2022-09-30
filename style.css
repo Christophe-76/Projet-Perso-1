@@ -1,4 +1,5 @@
 h1{
+    font-family: "neuzeit-grotesk",sans-serif;
     font-size: 54px;
     color: rgb(11, 167, 214);
     text-shadow: 1px 1px #333;
@@ -7,7 +8,8 @@ h1{
 }
 #menu{
     background-color: darkseagreen;
-align-content: space-between;}
+align-content: space-between;
+font-family: "neuzeit-grotesk",sans-serif;}
 ul {
     background: #283b63;
     display: flex;
