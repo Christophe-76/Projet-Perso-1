@@ -149,6 +149,11 @@
         </section>
         <hr>
         <section id="agenda">
+            <div id="calendar">
+                <iframe id="iframePreview" src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FParis&amp;src=MTg1NzNkYjU0YTgxOWZhMGU3NGZkNDJkNDhmZWRhZWVmNzg2YjkzMjAzMzU2NjU5NDM3YmU0ZDRjMDkyOTYxMUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;src=ZnIuZnJlbmNoI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%234285F4&amp;color=%230B8043" style="border:solid 1px #777" scrolling="no" width="800" height="600" frameborder="0">
+                </iframe>
+              <img src="images/Flyer-Manif.jpg" alt="évènements" class="events" width="400" height="600"/>    
+            </div>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quibusdam maxime ullam eligendi tempore! Magnam tenetur, hic dolorum architecto quo alias aperiam labore, laborum iure enim facere officiis voluptatum voluptatem.
             Vero officia nobis, placeat tenetur optio odit voluptates quam perferendis labore esse officiis animi omnis, tempore blanditiis. Culpa dolorem nulla illum, in, suscipit nobis, sunt nisi beatae error fugiat hic?
             Hic nisi deleniti adipisci corporis quaerat laboriosam fugit voluptatum, itaque dolore. Tempora molestias, consectetur eius vel enim non dignissimos corporis sunt tempore ducimus beatae ipsa impedit maxime ex optio recusandae.
@@ -178,6 +183,13 @@
 
         
         <p class="contact">
+            <h2 style="text-align:center;">
+                <span style="color:#56616d;">
+                    <span style="font-size:48px;">
+                        <strong>Nous contacter</strong>
+                    </span>
+                </span>
+            </h2>
             <address>
             <a href="mailto:lesou.inscriptions@gmail.com">Envoyer vos inscriptions ici</a>
             
@@ -199,6 +211,16 @@
                 <textarea id="message" name="Message"></textarea>
                 <br /><br />
                 <input type="submit" value="Submit" />
+                <button type="submit" id="contactSubmit" class="
+                    button
+                    buttonOrange
+                    textAlignCenter
+                    buttonSmall
+                    
+                ">
+                
+                <span class="valignInitial">Envoyer</span>
+            </button>
 
               </form>
           
@@ -211,8 +233,19 @@
             <article> <a href="http://www.roquemaure.fr/">Lien Mairie de Roquemaure</a></article>    
         </p>
 
+        
+        <div class="formUploadInputWrapper formUploadDrop">
+            <img src="https://web-assoconnect-frc-prod-cdn-endpoint-software.azureedge.net/legacy/common/ico/ico.file.upload.32.dark.png" class="_gif icoFileUpload32Dark">
+            <span>Déposez un fichier ici ou</span>
+            <div class="formUploadInput">
+                <input type="file" accept="" name="uploadFile[]" multiple="">
+                <div id="contactDocumentIdsSelectButton" class="button buttonBlue buttonSmall formUploadInputButton">
+                    <span>Choisissez un fichier</span>
+                </div>
+            </div>
+        </div>
+        <br>
         <p>@Copyright 2022</p>
-
     </footer>
 </body>
 </html>
