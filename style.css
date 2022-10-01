@@ -13,28 +13,27 @@ h1{
 }
 #menu{
     background-color: darkseagreen;
-align-content: space-between;
-font-family: "neuzeit-grotesk",sans-serif;}
+    align-content: space-between;
+    font-family: "neuzeit-grotesk",sans-serif;}
 ul {
     background: #283b63;
     display: flex;
     justify-content: space-around;
-    padding: 10px;
+    padding: 5px;
   }
   ul li {
     list-style: none;
   }
-  
-  ul li a {
+    ul li a {
     color: white;
     text-decoration: none;
   }
-  #title{
-    
+  .title{
     background-color: darkseagreen;
     align-content: space-between;
 
   }
+  /* add button for contact us */
   .buttonOrange {
     background-color: #f6c131;
 }
@@ -57,4 +56,63 @@ ul {
 }
 .textAlignCenter {
   text-align: center;
+}
+/* carousel */
+
+.carousel {
+  background-color: rgb(209, 206, 206);
+  height: 300px;
+  align-content: space-between;
+  display: flex;
+  padding: 0.5em;
+  border: 2px solid rgb(46, 120, 163);
+  
+}
+form {
+  margin: 30px;
+  width: 100%;
+  padding-top: 20px;
+  justify-content: center;
+  height: 300px;
+  text-align: center;
+}
+.bloc-container {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  height: 400px;
+  border: 1px solid black;
+  gap: 10px;
+}
+.A-propos{
+  padding: 0.5em;
+  background-color: rgb(63, 153, 205);
+  border: 2px solid rgb(46, 120, 163);
+}
+.projets{
+  padding: 0.5em;
+  background-color: rgb(63, 153, 205);
+  border: 2px solid rgb(46, 120, 163);
+}
+.dates{
+  padding: 0.5em;
+  background-color: rgb(63, 153, 205);
+  border: 2px solid rgb(46, 120, 163);
+}
+.calendar{
+  padding: 0.5em;
+  background-color: rgb(63, 153, 205);
+  border: 2px solid rgb(46, 120, 163);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 100px);
+  grid-gap: 20px;
+}
+@media screen and (max-width: 600px) { 
+  .menu { 
+    display: none; 
+  } 
 }
