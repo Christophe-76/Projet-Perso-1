@@ -2,6 +2,7 @@
 *{
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 h1{
     font-family: "neuzeit-grotesk",sans-serif;
@@ -11,16 +12,17 @@ h1{
     text-align: center;
 
 }
+
 img {
   max-width: 100%;
   height: auto;
 }
 #menu{
-    background-color: darkseagreen;
+    background-color: #CDF0EA;
     align-content: space-between;
     font-family: "neuzeit-grotesk",sans-serif;}
 ul {
-    background: #283b63;
+    background: #F9F9F9;
     display: flex;
     justify-content: space-around;
     padding: 5px;
@@ -33,7 +35,7 @@ ul {
     text-decoration: none;
   }
   .title{
-    background-color: darkseagreen;
+    background-color: #F9F9F9;
     align-content: space-between;
 
   }
@@ -49,6 +51,7 @@ ul {
 .button {
   vertical-align: middle;
 }
+
 .buttonBig, .buttonLarge, .buttonSmall {
   border-radius: 20px;
   transition: all 0.2s linear;
@@ -64,60 +67,116 @@ ul {
 /* carousel */
 
 .carousel {
-  background-color: rgb(209, 206, 206);
-  height: 300px;
+  background-color: #F6C6EA;
+  height: 100%;
   align-content: space-between;
-  display: flex;
+  display: flexbox;
   padding: 0.5em;
   border: 2px solid rgb(164, 217, 214);
   
 }
+.carousel-items {
+  display: flex;
+  overflow-x: scroll;
+  padding: 1rem 0;
+  scroll-snap-type: x mandatory;
+}
+
+.carousel-item {
+  flex: 1 0 250px;
+  margin-left: 1rem;
+  scroll-snap-align: start;
+}
+::-webkit-scrollbar-track {
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+  height: 6px;
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #3d4852;
+  border-radius: 3px;
+}
 form {
-  margin: 30px;
+  margin: 0 auto;
   width: 100%;
+  display: block;
   padding-top: 20px;
   justify-content: center;
-  height: 300px;
+  height: 100%;
   text-align: center;
 }
 .bloc-container {
-  display: grid;
+  display: block;
   text-align: center;
-  grid-template-columns: 1fr 2fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  height: 400px;
+  height: 100%;
   border: 1px solid black;
   gap: 10px;
 }
 .A-propos{
   padding: 0.5em;
-  background-color: rgb(63, 153, 205);
+  display: flex;
+  background-color: #F6C6EA;
   border: 2px solid rgb(46, 163, 67);
 }
 .projets{
   padding: 0.5em;
-  background-color: rgb(63, 153, 205);
+  background-color: #FAF4B7;
   border: 2px solid rgb(46, 120, 163);
 }
 .dates{
   padding: 0.5em;
-  background-color: rgb(181, 63, 205);
+  background-color: #CDF0EA;
   border: 2px solid rgb(46, 120, 163);
 }
 .calendar{
   padding: 0.5em;
-  background-color: rgb(205, 101, 63);
+  background-color:#F9F9F9;
   border: 2px solid rgb(46, 120, 163);
 }
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 100px);
-  grid-gap: 20px;
+.contact{
+  padding: 0.5em;
+  background-color: #F6C6EA;
+  border: 2px solid rgb(46, 120, 163);
+  display: space-between;
 }
+.liens{
+  padding: 0.5em;
+  background-color: #FAF4B7;
+  border: 2px solid rgb(46, 120, 163);
+}
+.docs{
+  padding: 0.5em;
+  background-color: #CDF0EA;
+  border: 2px solid rgb(46, 120, 163);
+}
+label {
+  line-height: 2;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 300px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+
+input[type="submit"] {
+  background: #283b63;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+}
+
+
 @media screen and (max-width: 600px) { 
   .menu { 
     display: block;
     width: 100%;
   } 
 }
+div {display: block;}
