@@ -4,13 +4,33 @@
   padding: 0px;
   box-sizing: border-box;
 }
+
+
+/* Eléments principaux de la page */
+/* Header */
+/* Navigation */
+/* Présentation du sou à la place de bannière */
+/* Corps */
+/* Footer */
+
+/* Définition de la police pour h1 */
 h1{
     font-family: "neuzeit-grotesk",sans-serif;
     font-size: 54px;
     color: rgb(11, 167, 214);
     text-shadow: 1px 1px #333;
     text-align: center;
-
+    font-weight: normal;
+    font-style: normal;
+}
+h2{
+  font-family: "neuzeit-grotesk",sans-serif;
+  font-size: 25px;
+  color: rgb(11, 167, 214);
+  text-shadow: 1px 1px #333;
+  text-align: center;
+  font-weight: normal;
+  font-style: normal;
 }
 
 img {
@@ -118,7 +138,6 @@ form {
 }
 .A-propos{
   padding: 0.5em;
-  display: flex;
   background-color: #F6C6EA;
   border: 2px solid rgb(46, 163, 67);
 }
@@ -142,6 +161,13 @@ form {
   background-color: #F6C6EA;
   border: 2px solid rgb(46, 120, 163);
   display: space-between;
+}
+.liens-docs{
+  display: block;
+  text-align: center;
+  height: 100%;
+  border: 1px solid black;
+  gap: 10px;
 }
 .liens{
   padding: 0.5em;
@@ -180,3 +206,4 @@ input[type="submit"] {
   } 
 }
 div {display: block;}
+
