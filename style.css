@@ -6,12 +6,38 @@
 }
 
 
-/* Eléments principaux de la page */
+
 /* Header */
 /* Navigation */
 /* Présentation du sou à la place de bannière */
 /* Corps */
-/* Footer */
+
+
+/* Définition des polices personnalisées */
+
+@font-face
+{
+    font-family: 'BallparkWeiner';
+    src: url('polices/ballpark.eot');
+    src: url('polices/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('polices/ballpark.woff') format('woff'),
+         url('polices/ballpark.ttf') format('truetype'),
+         url('polices/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('polices/dayrom.eot');
+    src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('polices/dayrom.woff') format('woff'),
+         url('polices/dayrom.ttf') format('truetype'),
+         url('polices/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
 /* Définition de la police pour h1 */
 h1{
@@ -33,25 +59,64 @@ h2{
   font-style: normal;
 }
 
+/* Navigation */
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+/* Eléments principaux de la page */
+body
+{
+  background-color: #CDF0EA;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #181818;
+}
 img {
   max-width: 100%;
   height: auto;
 }
 #menu{
     background-color: #CDF0EA;
+    color: black;
     align-content: space-between;
     font-family: "neuzeit-grotesk",sans-serif;}
 ul {
-    background: #F9F9F9;
+    background: #f9f9f9;
+    color: black;
     display: flex;
     justify-content: space-around;
     padding: 5px;
   }
-  ul li {
+ul li {
+    color: black;
     list-style: none;
+    background-color: #f6c131;
   }
-    ul li a {
-    color: white;
+ul li a {
+    color: rgb(255, 255, 255);
+    background-color: #d8f0cd;
     text-decoration: none;
   }
   .title{
@@ -93,7 +158,7 @@ ul {
   display: flexbox;
   padding: 0.5em;
   border: 2px solid rgb(164, 217, 214);
-  
+  margin: 0.5em;
 }
 .carousel-items {
   display: flex;
@@ -135,47 +200,57 @@ form {
   height: 100%;
   border: 1px solid black;
   gap: 10px;
+  margin: 0.5em;
+  padding: 0.5em;
 }
 .A-propos{
   padding: 0.5em;
+  margin: 0.5em;
   background-color: #F6C6EA;
-  border: 2px solid rgb(46, 163, 67);
+  border: 1px solid rgb(46, 163, 67);
 }
 .projets{
   padding: 0.5em;
+  margin: 0.5em;
   background-color: #FAF4B7;
-  border: 2px solid rgb(46, 120, 163);
+  border: 1px solid rgb(46, 120, 163);
 }
 .dates{
   padding: 0.5em;
+  margin: 0.5em;
   background-color: #CDF0EA;
-  border: 2px solid rgb(46, 120, 163);
+  border: 1px solid rgb(46, 120, 163);
 }
 .calendar{
   padding: 0.5em;
+  margin: 0,5em;
   background-color:#F9F9F9;
-  border: 2px solid rgb(46, 120, 163);
+  border: 1px solid rgb(46, 120, 163);
 }
 .contact{
   padding: 0.5em;
+  margin: 0.5em;
   background-color: #F6C6EA;
-  border: 2px solid rgb(46, 120, 163);
+  border: 1px solid rgb(46, 120, 163);
   display: space-between;
 }
-.liens-docs{
-  display: block;
-  text-align: center;
+#liens-docs{
+  margin: 0.5em;
+  padding: 0.5em;
   height: 100%;
   border: 1px solid black;
   gap: 10px;
 }
-.liens{
+#liens{
+  align-items: center;
   padding: 0.5em;
+  margin: 0.5em;
   background-color: #FAF4B7;
   border: 2px solid rgb(46, 120, 163);
 }
 .docs{
   padding: 0.5em;
+  margin: 0.5em;
   background-color: #CDF0EA;
   border: 2px solid rgb(46, 120, 163);
 }
@@ -207,3 +282,94 @@ input[type="submit"] {
 }
 div {display: block;}
 
+.formUploadInput{
+  width: 300px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+/* Footer */
+
+footer p, footer ul
+{
+
+    font-size: 0.8em;
+}
+
+#fin{
+  margin: 0.5em;
+  padding: 0.5em;
+  
+}
+
+#tweet
+{
+    width: 28%;
+}
+
+#mes_photos
+{
+    width: 35%;
+}
+
+#mes_amis
+{
+    width: 31%;
+}
+
+#mes_photos img
+{
+    border: 1px solid #181818;
+    margin-right: 2px;
+}
+
+#listes_amis
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+}
+
+#mes_amis ul
+{
+    list-style-image: url('images/ico_liensexterne.png');
+    padding-left: 2px;
+}
+
+#mes_amis a
+{
+    text-decoration: none;
+    color: #760001;
+}
+
+.cc-FloatingButtonBarContainer .cc-FloatingButtonBarContainer-button-scroll span {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAMAAAAM7l6QAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAABmUExURQAAAP///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////5WfaagAAAAhdFJOUwCNiZgQzB2E+vF9up/A0OpNdAWUawZoXLTHMfTkPzUXRrNwbC0AAAB0SURBVCjP7dJJDoMwDAVQA4WEhKllaJn5978kLkIVUQML2PJXtp7tlYnuXM3D898H+gFktasa3xR2HWMgTSTwtGngA21GEe8ru4YZUemxiz9NWKelzNndl8l8M+3X2uFJ1+Qa3fBrBKBNVnGz6YR07h85nxmEZAcBhovpBwAAAABJRU5ErkJggg==) center center repeat-y;
+}
+  @media (min-width: 768px)
+{.cc-FloatingButtonBarContainer li a span {
+  display: block;
+  height: 42px;
+  width: 42px;
+  opacity: .5;
+}}
+.cc-FloatingButtonBarContainer li a {
+  cursor: pointer;
+  font-size: 0;
+}
+.cc-FloatingButtonBarContainer {
+  list-style-type: none;
+@media (min-width: 768px)}
+
+.cc-FloatingButtonBarContainer {
+  bottom: 60px;
+  right: 60px;
+}
+.cc-FloatingButtonBarContainer {
+  bottom: 10px;
+  display: block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  z-index: 10100;
+  right: 10px;
+}
