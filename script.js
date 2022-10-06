@@ -9,7 +9,7 @@ document
   });
 
 const envoyer =
-  "Vous avez envoyé un message";
+  "Vous avez envoyé un document";
 
 Envoi
   .getElementById("formUploadInput")

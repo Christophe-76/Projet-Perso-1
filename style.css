@@ -85,6 +85,13 @@ nav a:hover
     color: #760001;
     border-bottom: 3px solid #760001;
 }
+/* Bannière de l'Association */
+#title
+{
+  background-color: #F9F9F9;
+  align-content: space-between;
+  
+}
 
 /* Eléments principaux de la page */
 body
@@ -119,13 +126,9 @@ ul li a {
     background-color: #d8f0cd;
     text-decoration: none;
   }
-  .title{
-    background-color: #F9F9F9;
-    align-content: space-between;
-
-  }
+ 
   /* add button for contact us */
-  .buttonOrange {
+ .buttonOrange {
     background-color: #f6c131;
 }
 .buttonSmall {
@@ -267,6 +270,12 @@ textarea {
 
 
 input[type="submit"] {
+  background: #283b63;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+}
+input[type="File"] {
   background: #283b63;
   color: white;
   border: none;
