@@ -1,5 +1,5 @@
 * reset */
-*{
+/*{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -15,7 +15,7 @@
 
 /* Définition des polices personnalisées */
 
-@font-face
+/* @font-face
 {
     font-family: 'BallparkWeiner';
     src: url('polices/ballpark.eot');
