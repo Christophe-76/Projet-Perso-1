@@ -10,10 +10,9 @@ document
 
 const envoyer =
   "Vous avez envoyé un document";
-
-Envoi
+document
   .getElementById("formUploadInput")
   .addEventListener("File", function (event) {
     event.preventDefault();
-    alert(message);
+    alert(envoyer);
   });
