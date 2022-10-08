@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="style.css" rel="stylesheet" type="text/css" />
         <link rel="icon" href="images/logo.jpg">
+        <title>Le site du Sou de Roquemaure</title>
     </head>
     <body>
          <header>
@@ -20,39 +21,39 @@
             </nav>
         </header>       
         <main>
-            <section id="asso">
-                <div class="banniere-sou">
-                    <h1><img src="images/logo1.png" alt="Logo" class="logo" width="100" />Le Sou des Ecoles de Roquemaure</h1>
-                </div>
-                <article class="immage-sou">
-                    <img src="images/img-fond.jpg" alt="image de fond" class="Image de fond" />
-                    <img src="images/ecole-prim-1.jpg" alt="ecole primaire" class="ecole primaire" />
-                    <img src="images/img-fd-3.jpg" alt="image de fond3" class="Image de fond3" />
-                    <img src="images/ecole-mat-1.jpg" alt="ecole maternelle" class="Ecole maternelle" />
-                    <img src="images/img-fd-2.jpg" alt="image de fond2" class="Image de fond2" />
-                </article>   
-                         <!-- mettre les imgs les uns à côté des autres dans une couleur de fond avec le titre par dessus "" -->
-            </section>
-                        <!-- Revoir l'ordre des div, des blocs, etc "" -->
-            <section id="carousel">
+            <article class="asso">
+                <h1><img src="images/logo1.png" alt="Logo" class="logo" width="100" />Le Sou des Ecoles de Roquemaure</h1>
+            </article>           
+            <article class="immage-sou">
+                <div class="card"><img src="images/img-fond.jpg" alt="image de fond" class="Image de fond" /></div>
+                <div class="card"><img src="images/ecole-prim-1.jpg" alt="ecole primaire" class="ecole primaire" /></div>
+                <div class="card"><img src="images/img-fd-3.jpg" alt="image de fond3" class="Image de fond3" /></div>
+                <div class="card"><img src="images/ecole-mat-1.jpg" alt="ecole maternelle" class="Ecole maternelle" /></div>
+                <div class="card"><img src="images/img-fd-2.jpg" alt="image de fond2" class="Image de fond2" /></div>
+            </article>   
+                <!-- mettre les imgs les uns à côté des autres dans une couleur de fond avec le titre par dessus "" -->
+                <!-- Revoir l'ordre des div, des blocs, etc "" -->
+            <section id="caroussel">
                 <ul>
                     <li>
+                        <div class="card">
                         <img src="images/Vide Placard Petite Enfance.jpg" alt="Placard" class="Placard" width="400" height="600"></a>
+                        </div>
                     </li>
-                    <li>
-                        <img src="images/Marché de Noël.jpg" alt="Noël" class="Noël" width="400" height="600"></a>
+                    <li><div class="card">
+                        <img src="images/Marché de Noël.jpg" alt="Noël" class="Noël" width="400" height="600"></a></div>
                      </li>
-                    <li>
-                        <img src="images/Marché de Noël.jpg" alt="Noël" class="Noël" width="400" height="600"></a>
+                    <li><div class="card">
+                        <img src="images/Marché de Noël.jpg" alt="Noël" class="Noël" width="400" height="600"></a></div>
                      </li>
-                    <li>
-                       <img src="images/Marché de Noël.jpg" alt="Noël" class="Noël" width="400" height="600"></a>
+                    <li><div class="card">
+                       <img src="images/Marché de Noël.jpg" alt="Noël" class="Noël" width="400" height="600"></a></div>
                     </li>
                 </ul>
             </section>    
-            <section>
-                <article class="A-propos">
-                    <h2 id="about"><img src="images/ico_epingle.png" alt="Catégorie voyage" class="ico_categorie" />Qui sommes-nous</h2>
+            <section id="about">
+                <article class="a-propos">
+                    <h2><img src="images/ico-about.png" alt="" class="ico-categorie" />Qui sommes-nous ?</h2>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quibusdam maxime ullam eligendi tempore! Magnam tenetur, hic dolorum architecto quo alias aperiam labore, laborum iure enim facere officiis voluptatum voluptatem.
                         Vero officia nobis, placeat tenetur optio odit voluptates quam perferendis labore esse officiis animi omnis, tempore blanditiis. Culpa dolorem nulla illum, in, suscipit nobis, sunt nisi beatae error fugiat hic?
@@ -62,16 +63,16 @@
                     
                 </article>
                 <article class="image-about">
-                        <!-- Mettre video des manifestations passés -->
+                        <!-- Mettre photod des manifestations passées -->
                 </article>
-                <aside>
-                        <!-- Mettre video des manifestations passés -->
+                <aside class="video-about">
+                        <!-- Mettre video des manifestations passées -->
                 </aside>
                         
             </section>
             <section id="projets">
                 <article class="p-realise">
-                    <h2>Les projets réalisés</h2>
+                    <h2><img src="images/ico_project.png" alt="" class="ico-categorie" />Les projets réalisés</h2>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quibusdam maxime ullam eligendi tempore! Magnam tenetur, hic dolorum architecto quo alias aperiam labore, laborum iure enim facere officiis voluptatum voluptatem.
                         Vero officia nobis, placeat tenetur optio odit voluptates quam perferendis labore esse officiis animi omnis, tempore blanditiis. Culpa dolorem nulla illum, in, suscipit nobis, sunt nisi beatae error fugiat hic?
@@ -80,30 +81,23 @@
                     </p>     
                 </article>       
                 <article class="img-projet">
-                    <!-- Mettre video des projets realises -->
+                    <!-- Mettre photos des projets realises -->
                 </article>
                 <aside class="video-projet">
-                            <!-- Mettre video des projets realises -->  
+                    <!-- Mettre video des projets realises -->  
                 </aside>
             </section>
-             <section>
-                <div id="calendar">
-                    <h2>Nos futures manifestations</h2>
+             <section id="event">
+                    <h2><img src="images/ico-agenda.png" alt="" class="ico-categorie" />Nos futures manifestations</h2>
                     <ul>
                         <li><iframe id="iframePreview" src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FParis&amp;src=MTg1NzNkYjU0YTgxOWZhMGU3NGZkNDJkNDhmZWRhZWVmNzg2YjkzMjAzMzU2NjU5NDM3YmU0ZDRjMDkyOTYxMUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;src=ZnIuZnJlbmNoI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%234285F4&amp;color=%230B8043" style="border:solid 1px #777" scrolling="no" width="500" height="600" frameborder="0">
-                            </iframe>
-                        </li>
+                            </iframe></li>
                         <li><img src="images/Flyer-Manif.jpg" alt="évènements" class="events" width="400" height="600"/></li>
-                    </ul>
-                </div>        
+                    </ul>     
             </section>
-            <section>
+            <section id="contactus">
                 <div class="contact">
-                    <h2 id="contact" style="text-align:center;">
-                        <p style="color:#56616d;" style="font: size auto 100px;";>
-                            <strong>Contactez-nous</strong>
-                        </p>
-                    </h2>
+                    <h2>Contactez-nous<img src="images/ico-contact.jpg" alt="" class="ico-categorie" /></h2>
                     <form id="contactForm">
                         <label for="name">NOM et Prénom :</label><br />
                         <input type="text" id="name" name="Name" value="example" /><br />
@@ -121,7 +115,7 @@
                     </form>
                 </div>
                 <div class="docs">
-                    <p>Télécharger vos dossiers ici</p>
+                    <h2><img src="images/ico_telecharge.png" alt="" class="ico-categorie" />Télécharger vos dossiers ici</h2>
                     <p><a href="docs/lettre marché de noël  2022.docx">Dossier inscription Marché de Noël</a></p>
                     <p><a href="mailto:lesou.inscriptions@gmail.com">Envoyer vos inscriptions ici</a></p>    
                     <!-- Revoir l'alignement des liens, ajouter des logos-->
@@ -144,7 +138,7 @@
  
                    <!-- scroll to top button -->
                         <li class="cc-FloatingButtonBarContainer-button-scroll cc-FloatingButtonBarContainer-button-scroll-show">
-                         <a href="javascript:void(0);" title="Défiler vers le haut">
+                         <a href="#asso" title="Défiler vers le haut">
                              <span>Défiler vers le haut</span>
                          </a>
                         </li>
@@ -156,16 +150,16 @@
         <footer>
             <div id="liens">
                 <ul>
-                    <p><a href="https://m.facebook.com/lesou.desecoles?eav=AfZe0MDt2uaJFsscawSV2BjUOYf4o88YNxGEDV05GhiUTxYNphEEc-Za8Wcmmm_9cIY&paipv=0" title="Retrouvez toute l'actualité du Sou des écoles et les derners événements sur notre page Facebook" target="_blank"><img src="images/logo-fb.jpg" alt="" width="30"> </a>Visiter notre page facebook</p>
+                    <p><a href="https://m.facebook.com/lesou.desecoles?eav=AfZe0MDt2uaJFsscawSV2BjUOYf4o88YNxGEDV05GhiUTxYNphEEc-Za8Wcmmm_9cIY&paipv=0" title="Retrouvez toute l'actualité du Sou des écoles et les derners événements sur notre page Facebook" target="_blank"><img src="images/logo-fb.png" alt="" width="30"> </a>Visiter notre page facebook</p>
                     <p><a href="http://www.roquemaure.fr/" target="_blank"><img src="images/image003.jpg" alt="" width="30"></a>Mairie de Roquemaure</p>
                 </ul>
             </div>
             </div id="fin">
                 <br>
-                <p><small><em>@Copyright 2022 - Tous droits réservés</em></small></p>
+                <p><small><em>@Copyright 2022 - Tous droits réservés -</em></small></p>
                 <p><small><strong>By Christophe M.</strong></small></p>
             </div>
         </footer>       
-            <script src="script.js"></script>
+        <script src="script.js"></script>
     </body>
 </html>
