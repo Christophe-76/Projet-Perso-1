@@ -5,53 +5,62 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="style.css" rel="stylesheet" type="text/css" />
-        <link rel="icon" href="images/logo.jpg">
-        <title>Le site du Sou de Roquemaure</title>
+        <link rel="icon" href="images/logo2.jpg">
+        <title>Le site du Sou des écoles de Roquemaure</title>
     </head>
     <body>
-         <header>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#project">Project</a></li>
-                    <li><a href="#agenda">Agenda</a></li>
-                    <li><a href="#contact">Contact Us</a></li>
-                       <!--  -->   
-                </ul>
-            </nav>
-        </header>       
+        <nav class="menu box">
+            <ul>
+                <!-- <button class="dropdown-btn">Menu</button> -->
+                <div class="dropdown-menu-content">
+                  <li><a href="#about">About 🐱</a></li>
+                  <li><a href="#project">Project 🐹</a></li>
+                  <li><a href="#agenda">Agenda 🦊</a></li>
+                  <li><a href="#contact">Contact Us 🐻</a></li>
+                  <li><a href="#liens">Nos liens 🐼</a></li>
+                  <li><a href="#telecharge">Nos documents 🐻</a></li>
+                </div>
+            </ul>
+        </nav>
+         
+        <header class="logo-box">
+            <div class="logo"><img src="images/logo2.jpg" alt="Logo" class="logo" width="" /></div>
+            <div class="title"> Le Sou des écoles de Roquemaure</div>
+        </header>
+              
         <main>
-            <article class="asso">
-                <h1><img src="images/logo1.png" alt="Logo" class="logo" width="100" />Le Sou des Ecoles de Roquemaure</h1>
-            </article>           
-            <article class="immage-sou">
-                <div class="card"><img src="images/img-fond.jpg" alt="image de fond" class="Image de fond" /></div>
-                <div class="card"><img src="images/ecole-prim-1.jpg" alt="ecole primaire" class="ecole primaire" /></div>
-                <div class="card"><img src="images/img-fd-3.jpg" alt="image de fond3" class="Image de fond3" /></div>
-                <div class="card"><img src="images/ecole-mat-1.jpg" alt="ecole maternelle" class="Ecole maternelle" /></div>
-                <div class="card"><img src="images/img-fd-2.jpg" alt="image de fond2" class="Image de fond2" /></div>
-            </article>   
+            
+                <!-- Contenu principal -->
+            <section>
+                <article class="image-sou">
+                    <div class="image"><img src="images/img-fond.jpg" alt="image de fond" class="Image de fond" /></div>
+                    <div class="image"><img src="images/ecole-prim-1.jpg" alt="ecole primaire" class="ecole primaire" /></div>
+                    <div class="image"><img src="images/img-fd-3.jpg" alt="image de fond3" class="Image de fond3" /></div>
+                    <div class="image"><img src="images/ecole-mat-1.jpg" alt="ecole maternelle" class="Ecole maternelle" /></div>
+                    <div class="image"><img src="images/img-fd-2.jpg" alt="image de fond2" class="Image de fond2" /></div>
+                </article>  
+            </section>       
                 <!-- mettre les imgs les uns à côté des autres dans une couleur de fond avec le titre par dessus "" -->
                 <!-- Revoir l'ordre des div, des blocs, etc "" -->
-            <section id="caroussel">
+            <aside class="caroussel">
                 <ul>
                     <li>
                         <div class="card">
-                        <img src="images/Vide Placard Petite Enfance.jpg" alt="Placard" class="Placard" width="400" height="600"></a>
+                        <img src="affiches/Vide Placard Petite Enfance.jpg" alt="Placard" class="Placard" width="400" height="600"></a>
                         </div>
                     </li>
                     <li><div class="card">
-                        <img src="images/Marché de Noël.jpg" alt="Noël" class="Noël" width="400" height="600"></a></div>
+                        <img src="affiches/Marché de Noël.jpg" alt="Noël" class="Noël" width="400" height="600"></a></div>
                      </li>
                     <li><div class="card">
-                        <img src="images/Marché de Noël.jpg" alt="Noël" class="Noël" width="400" height="600"></a></div>
+                        <img src="affiches/Marché de Noël.jpg" alt="Noël" class="Noël" width="400" height="600"></a></div>
                      </li>
                     <li><div class="card">
-                       <img src="images/Marché de Noël.jpg" alt="Noël" class="Noël" width="400" height="600"></a></div>
+                       <img src="affiches/Marché de Noël.jpg" alt="Noël" class="Noël" width="400" height="600"></a></div>
                     </li>
                 </ul>
-            </section>    
-            <section id="about">
+            </aside>    
+            <section class="about">
                 <article class="a-propos">
                     <h2><img src="images/ico-about.png" alt="" class="ico-categorie" />Qui sommes-nous ?</h2>
                     <p>
@@ -70,7 +79,7 @@
                 </aside>
                         
             </section>
-            <section id="projets">
+            <section class="projets">
                 <article class="p-realise">
                     <h2><img src="images/ico_project.png" alt="" class="ico-categorie" />Les projets réalisés</h2>
                     <p>
@@ -115,7 +124,7 @@
                     </form>
                 </div>
                 <div class="docs">
-                    <h2><img src="images/ico_telecharge.png" alt="" class="ico-categorie" />Télécharger vos dossiers ici</h2>
+                    <h2><img src="images/ico_telecharge.png" alt="" class="ico-categorie" width="30"/>Télécharger vos dossiers ici</h2>
                     <p><a href="docs/lettre marché de noël  2022.docx">Dossier inscription Marché de Noël</a></p>
                     <p><a href="mailto:lesou.inscriptions@gmail.com">Envoyer vos inscriptions ici</a></p>    
                     <!-- Revoir l'alignement des liens, ajouter des logos-->
@@ -154,7 +163,7 @@
                     <p><a href="http://www.roquemaure.fr/" target="_blank"><img src="images/image003.jpg" alt="" width="30"></a>Mairie de Roquemaure</p>
                 </ul>
             </div>
-            </div id="fin">
+            <div id="fin">
                 <br>
                 <p><small><em>@Copyright 2022 - Tous droits réservés -</em></small></p>
                 <p><small><strong>By Christophe M.</strong></small></p>

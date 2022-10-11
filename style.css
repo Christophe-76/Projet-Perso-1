@@ -1,64 +1,15 @@
-* reset */
-/*@media screen and (max-width: 800px) { 
-  .asso { 
-    display: block;
-    width: 100%;
-    
-  } 
-}
-/*les titres*/
-
-h1
+body
 {
-  font-family: "neuzeit-grotesk",sans-serif;
-  font-size: 54px;
-  color: rgb(11, 167, 214);
-  text-shadow: 1px 1px #333;
-  text-align: center;
-  font-weight: normal;
-  font-style: normal;
-}
-h2{
-font-family: "neuzeit-grotesk",sans-serif;
-font-size: 25px;
-color: rgb(11, 167, 214);
-text-shadow: 1px 1px #333;
-text-align: center;
-font-weight: normal;
-font-style: normal;
-}
-/* Header */
-header
-{ background:scroll;
-  list-style-type: none;
-  display: flex;
-  margin-right: 15px;
-  font-size: 1.3em;
-  color: #181818;
-  padding-bottom: 3px;
-  text-decoration: none;
-  background-color: #f9f9f9;
-  align-content: space-between;
-}
-nav 
-{
-    background:scroll;
-    list-style-type: none;
-    display: flex;
-    margin-right: 15px;
-    font-size: 1.3em;
-    color: #181818;
-    padding-bottom: 3px;
-    text-decoration: none;
-    background-color: #f9f9f9;
-    align-content: space-between;
-}
+  display: flexbox;
+  gap: 20px;
+  columns: 25% 25% 25% 25%;
+  }
 nav a
 {
     font-size: 1.3em;
     color: #181818;
-    padding-bottom: 3px;
     text-decoration: none;
+    
 }
 
 nav a:hover
@@ -67,140 +18,40 @@ nav a:hover
     border-bottom: 3px solid #760001;
 }
 
-/*Coprs de la page*/
-.asso
-{
-  background-color: #CDF0EA;
-  
-  align-content: space-between;
-  font-family: "neuzeit-grotesk",sans-serif;
-text-align: center;
-;}
-body
-{
 
-}
-main
-{
 
+.about{
+  display: flex;
 }
-/* Bannière de l'Association 
-#asso
-{
-
+.projets{
+  display: flex;
 }
-.image-sou
-{
-
+.caroussel{
+  display: flex;
 }
-/* Caroussel 
-#caroussel
-{
-
+.logo-box{
+  display: flex;
 }
-.card
-{
-
+.logo{
+  width: auto;
 }
-/* Section A propos 
-#about
-{
-
+.title{
+  font-size: 60px;
+  padding: 10px;
+  background-color: rgb(41,73,130);
+  color: #fff;
+  font: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.a-propos
-{
-
+.image-sou{
+  display: flex;
 }
-p.a-propos
-{
-
-}
-.image-sou
-{
-
-}
-.video-about
-{
-
-}
-/* Section Projets réalisés 
-#projets
-{
-
-}
-.p-realise
-{
-
-}
-p.p-realise
-{
-
-}
-.img-projet
-{
-
-}
-.video-projet
-{
-
-}
-/* Section évènements 
-#event
-{
-
-}
-#iframePreview
-{
-
-}
-/* Section contactez-nous /
-#contactus
-{
-
-}
-#titrecontact
-{
-
-}
-.contact
-{
-
-}
-#contactForm
-{
-
-}
-label {
-  line-height: 2;
-}
-input[type="text"],
-input[type="email"],
-textarea {
-  width: 300px;
-  padding: 5px;
-  margin-bottom: 10px;
+.cards {
+  display: flex;
 }
 
-
-input[type="submit"] {
-  background: #283b63;
-  color: white;
-  border: none;
-  padding: 5px 10px;
+html {
+  box-sizing: border-box;
 }
-input[type="File"] {
-  background: #283b63;
-  color: white;
-  border: none;
-  padding: 5px 10px;
+*, *:before, *:after {
+  box-sizing: inherit;
 }
-/* Navigation */
-
-/* Navigation */
-
-/* Présentation du sou à la place de bannière */
-
-/* Corps */
-
-
-/* Définition des polices personnalisées */
