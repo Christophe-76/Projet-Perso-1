@@ -5,63 +5,50 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="style.css" rel="stylesheet" type="text/css" />
-        <link rel="icon" href="images/logo2.jpg">
+        <link rel="icon" href="images/logo2.png">
         <title>Le site du Sou des écoles de Roquemaure</title>
     </head>
     <body>
-        <nav class="menu box">
-            <ul>
-                <!-- <button class="dropdown-btn">Menu</button> -->
-                <div class="dropdown-menu-content">
-                  <li><a href="#about">About 🐱</a></li>
-                  <li><a href="#project">Project 🐹</a></li>
-                  <li><a href="#agenda">Agenda 🦊</a></li>
-                  <li><a href="#contact">Contact Us 🐻</a></li>
-                  <li><a href="#liens">Nos liens 🐼</a></li>
-                  <li><a href="#telecharge">Nos documents 🐻</a></li>
-                </div>
-            </ul>
-        </nav>
-         
-        <header class="logo-box">
-            <div class="logo"><img src="images/logo2.jpg" alt="Logo" class="logo" width="" /></div>
-            <div class="title"> Le Sou des écoles de Roquemaure</div>
-        </header>
-              
-        <main>
-            
-                <!-- Contenu principal -->
-            <section>
-                <article class="image-sou">
-                    <div class="image"><img src="images/img-fond.jpg" alt="image de fond" class="Image de fond" /></div>
-                    <div class="image"><img src="images/ecole-prim-1.jpg" alt="ecole primaire" class="ecole primaire" /></div>
-                    <div class="image"><img src="images/img-fd-3.jpg" alt="image de fond3" class="Image de fond3" /></div>
-                    <div class="image"><img src="images/ecole-mat-1.jpg" alt="ecole maternelle" class="Ecole maternelle" /></div>
-                    <div class="image"><img src="images/img-fd-2.jpg" alt="image de fond2" class="Image de fond2" /></div>
-                </article>  
-            </section>       
-                <!-- mettre les imgs les uns à côté des autres dans une couleur de fond avec le titre par dessus "" -->
-                <!-- Revoir l'ordre des div, des blocs, etc "" -->
-            <aside class="caroussel">
-                <ul>
-                    <li>
-                        <div class="card">
-                        <img src="affiches/Vide Placard Petite Enfance.jpg" alt="Placard" class="Placard" width="400" height="600"></a>
-                        </div>
-                    </li>
-                    <li><div class="card">
-                        <img src="affiches/Marché de Noël.jpg" alt="Noël" class="Noël" width="400" height="600"></a></div>
-                     </li>
-                    <li><div class="card">
-                        <img src="affiches/Marché de Noël.jpg" alt="Noël" class="Noël" width="400" height="600"></a></div>
-                     </li>
-                    <li><div class="card">
-                       <img src="affiches/Marché de Noël.jpg" alt="Noël" class="Noël" width="400" height="600"></a></div>
-                    </li>
+    <header>
+        <nav>
+            <div class="navbar">
+                <ul class="nav-flex">
+                    <li><a href="#about">About 🐱</a></li>
+                    <li><a href="#project">Project 🐹</a></li>
+                    <li><a href="#agenda">Agenda 🦊</a></li>
+                    <li><a href="#contact">Contact Us 🐻</a></li>
+                    <li><a href="#liens">Nos liens 🐼</a></li>
+                    <li><a href="#telecharge">Nos documents 🐻</a></li>
                 </ul>
-            </aside>    
-            <section class="about">
-                <article class="a-propos">
+            </div>
+        </nav>
+    </header>
+    <main>
+            <div class="angry-grid">
+                <!-- Logo de l'association -->
+                <div id="item-0">
+                    <img src="images/logo2.png" alt="Logo" class="logo"/>
+                </div>
+                <!-- Galerie photos Roquemaure-->
+                <div id="item-1">
+                    <picture><img src="images/img-fond.jpg" alt="image de fond" class="image" /></picture>
+                    <picture><img src="images/ecole-prim-1.jpg" alt="ecole primaire" class="image"/></picture>
+                    <picture><img src="images/img-fd-3.jpg" alt="image de fond3" class="image"/></picture>
+                    <picture><img src="images/ecole-mat-1.jpg" alt="ecole maternelle" class="image"/></picture>
+                    <picture><img src="images/img-fd-2.jpg" alt="image de fond2" class="image"/></picture>
+                </div>
+                <!-- Galerie des affiches avec scroll et animation -->  
+                <div id="item-4">    
+                    <aside>
+                        <img src="affiches/Vide Placard Petite Enfance.jpg" alt="Placard" class="card">
+                        <img src="affiches/Marché de Noël.jpg" alt="Noël" class="card">
+                        <img src="affiches/Marché de Noël.jpg" alt="Noël" class="card">
+                        <img src="affiches/Marché de Noël.jpg" alt="Noël" class="card">
+                      </aside>
+                </div>
+                <!-- A propos de l'association / qui sommes-nous ?-->  
+                <div id="item-3">        
+                    <article class="about">
                     <h2><img src="images/ico-about.png" alt="" class="ico-categorie" />Qui sommes-nous ?</h2>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quibusdam maxime ullam eligendi tempore! Magnam tenetur, hic dolorum architecto quo alias aperiam labore, laborum iure enim facere officiis voluptatum voluptatem.
@@ -69,106 +56,92 @@
                         Hic nisi deleniti adipisci corporis quaerat laboriosam fugit voluptatum, itaque dolore. Tempora molestias, consectetur eius vel enim non dignissimos corporis sunt tempore ducimus beatae ipsa impedit maxime ex optio recusandae.
                         quos omnis rerum, ipsa optio qui, vero, dolores ullam id expedita explicabo incidunt repellat? Culpa, sequi assumenda? Vitae nam fugit cupiditate laborum et deserunt quidem maiores animi aspernatur beatae? ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, officiis asperiores pariatur earum quidem nobis voluptatum quos dolor voluptate, autem vero sit sunt laudantium beatae, iusto totam quia? Ducimus, doloremque.
                     </p>
-                    
-                </article>
-                <article class="image-about">
-                        <!-- Mettre photod des manifestations passées -->
-                </article>
-                <aside class="video-about">
-                        <!-- Mettre video des manifestations passées -->
-                </aside>
-                        
-            </section>
-            <section class="projets">
-                <article class="p-realise">
-                    <h2><img src="images/ico_project.png" alt="" class="ico-categorie" />Les projets réalisés</h2>
+                    </article>
+                    <article class="project">
+                        <h2><img src="images/ico_project.png" alt="" class="ico-categorie" />Les projets réalisés</h2>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quibusdam maxime ullam eligendi tempore! Magnam tenetur, hic dolorum architecto quo alias aperiam labore, laborum iure enim facere officiis voluptatum voluptatem.
                         Vero officia nobis, placeat tenetur optio odit voluptates quam perferendis labore esse officiis animi omnis, tempore blanditiis. Culpa dolorem nulla illum, in, suscipit nobis, sunt nisi beatae error fugiat hic?
                         Hic nisi deleniti adipisci corporis quaerat laboriosam fugit voluptatum, itaque dolore. Tempora molestias, consectetur eius vel enim non dignissimos corporis sunt tempore ducimus beatae ipsa impedit maxime ex optio recusandae.
                         quos omnis rerum, ipsa optio qui, vero, dolores ullam id expedita explicabo incidunt repellat? Culpa, sequi assumenda? Vitae nam fugit cupiditate laborum et deserunt quidem maiores animi aspernatur beatae? ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, officiis asperiores pariatur earum quidem nobis voluptatum quos dolor voluptate, autem vero sit sunt laudantium beatae, iusto totam quia? Ducimus, doloremque.
-                    </p>     
-                </article>       
-                <article class="img-projet">
-                    <!-- Mettre photos des projets realises -->
-                </article>
-                <aside class="video-projet">
-                    <!-- Mettre video des projets realises -->  
-                </aside>
-            </section>
-             <section id="event">
+                    </p>
+                    </article>
+
+
+                </div>
+                <!-- A propos de l'association / Galerie d'images (ajouter un icone au h2)--> 
+                <div id="item-2">
+                    <h2>Tout en images</h2>
+                    <div class="image-about">
+                            <!-- Mettre photos des manifestations passées avec un scroll et animations -->
+                    </div>
+
+                    <div class="video-about">
+                            <!-- Mettre video des manifestations passées avec animations -->
+                    </div>
+                </div>
+                
+                <div id="item-7">
                     <h2><img src="images/ico-agenda.png" alt="" class="ico-categorie" />Nos futures manifestations</h2>
-                    <ul>
-                        <li><iframe id="iframePreview" src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FParis&amp;src=MTg1NzNkYjU0YTgxOWZhMGU3NGZkNDJkNDhmZWRhZWVmNzg2YjkzMjAzMzU2NjU5NDM3YmU0ZDRjMDkyOTYxMUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;src=ZnIuZnJlbmNoI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%234285F4&amp;color=%230B8043" style="border:solid 1px #777" scrolling="no" width="500" height="600" frameborder="0">
-                            </iframe></li>
-                        <li><img src="images/Flyer-Manif.jpg" alt="évènements" class="events" width="400" height="600"/></li>
-                    </ul>     
-            </section>
-            <section id="contactus">
-                <div class="contact">
-                    <h2>Contactez-nous<img src="images/ico-contact.jpg" alt="" class="ico-categorie" /></h2>
-                    <form id="contactForm">
-                        <label for="name">NOM et Prénom :</label><br />
-                        <input type="text" id="name" name="Name" value="example" /><br />
-                        <label for="email">Email:</label><br />
-                        <input
-                            type="email"
-                            id="email"
-                            name="email"
-                            value="example@rgmail.com"
-                        /><br />
-                        <label for="message">Laissez-nous un message:</label><br />
-                        <textarea id="message" name="Message"></textarea>
-                        <br /><br />
-                        <input type="submit" value="Submit" />
-                    </form>
+                    <img src="images/Flyer-Manif.jpg" alt="évènements" class="events" width="400" height="600"/></li>
+                        </ul>     
                 </div>
-                <div class="docs">
-                    <h2><img src="images/ico_telecharge.png" alt="" class="ico-categorie" width="30"/>Télécharger vos dossiers ici</h2>
-                    <p><a href="docs/lettre marché de noël  2022.docx">Dossier inscription Marché de Noël</a></p>
-                    <p><a href="mailto:lesou.inscriptions@gmail.com">Envoyer vos inscriptions ici</a></p>    
-                    <!-- Revoir l'alignement des liens, ajouter des logos-->
+                <div id="item-8">
+                    <h2><img src="images/ico-contact.jpg" alt="" class="ico-categorie" />Contactez-nous</h2>
+                        <form id="contactForm">
+                            <label for="name">NOM et Prénom :</label><br />
+                                <input type="text" id="name" name="Name" value="example" /><br />
+                                    <label for="email">Email:</label><br />
+                                <input
+                                    type="email"
+                                    id="email"
+                                    name="email"
+                                    value="example@rgmail.com"
+                                    /><br />
+                                    <label for="message">Laissez-nous un message:</label><br />
+                                    <textarea id="message" name="Message"></textarea>
+                                    <br /><br />
+                                <input type="submit" value="Submit" />
+                        </form>
                 </div>
-            </section>
-                    <!-- Mettre des boutons pour l'envoi/téléchargement des docs -->
-            <section>
-                 <!-- Revoir pour le lien, sa disposition, si c'est la peine de le mettre, sinon mettre le div docs à la place avec des boutons-->
-                <div class="formUploadInputWrapper formUploadDrop"></div>
-                <div class="formUploadInput">
-                    <input type="file" accept="" name="uploadFile[]" multiple=""></div>
-                <div id="contactDocumentIdsSelectButton" class="button buttonBlue buttonSmall formUploadInputButton">
-                     
-                       <!-- Revoir "<span>Choisissez un fichier</span>"-->
-                
-                
-                
- 
-                    <ul class="cc-FloatingButtonBarContainer cc-FloatingButtonBarContainer-right">
- 
-                   <!-- scroll to top button -->
-                        <li class="cc-FloatingButtonBarContainer-button-scroll cc-FloatingButtonBarContainer-button-scroll-show">
-                         <a href="#asso" title="Défiler vers le haut">
-                             <span>Défiler vers le haut</span>
-                         </a>
-                        </li>
-                    </ul>
+                <div id="item-9">
+                    <article id="telecharge"><h2><img src="images/ico_telecharge.png" alt="" class="ico-categorie" width="30"/>Télécharger vos dossiers ici</h2>
+                        <ul>
+                            <li><a href="docs/lettre marché de noël  2022.docx">Dossier inscription Marché de Noël</a></li>
+                            <li><a href="mailto:lesou.inscriptions@gmail.com">Envoyer vos inscriptions ici</a></li>
+                        </ul>
+                    </article>
+                            <!-- Mettre des boutons pour l'envoi/téléchargement des docs -->
+                    
+                                
+                                
+                            <ul class="cc-FloatingButtonBarContainer cc-FloatingButtonBarContainer-right">
+                                <!-- scroll to top button -->
+                                <li class="cc-FloatingButtonBarContainer-button-scroll cc-FloatingButtonBarContainer-button-scroll-show">
+                                    <a href="#asso" title="Défiler vers le haut">
+                                    <span>Défiler vers le haut</span>
+                                    </a>
+                                </li>
+                            </ul>
+                    </article>
                 </div>
-                
-            </section>
+                <div id="item-10">
+                    <article class="liens">
+                        <ul>
+                            <li><a href="https://m.facebook.com/lesou.desecoles?eav=AfZe0MDt2uaJFsscawSV2BjUOYf4o88YNxGEDV05GhiUTxYNphEEc-Za8Wcmmm_9cIY&paipv=0" title="Retrouvez toute l'actualité du Sou des écoles et les derners événements sur notre page Facebook" target="_blank"><img src="images/logo-fb.png" alt="" width="30"> </a>Visiter notre page facebook</li>
+                            <li><a href="http://www.roquemaure.fr/" target="_blank"><img src="images/image003.jpg" alt="" width="30"></a>Mairie de Roquemaure</li>
+                        </ul>
+                    </article>
+                </div>
+                    
+            </div>
+
         </main>
-        <footer>
-            <div id="liens">
-                <ul>
-                    <p><a href="https://m.facebook.com/lesou.desecoles?eav=AfZe0MDt2uaJFsscawSV2BjUOYf4o88YNxGEDV05GhiUTxYNphEEc-Za8Wcmmm_9cIY&paipv=0" title="Retrouvez toute l'actualité du Sou des écoles et les derners événements sur notre page Facebook" target="_blank"><img src="images/logo-fb.png" alt="" width="30"> </a>Visiter notre page facebook</p>
-                    <p><a href="http://www.roquemaure.fr/" target="_blank"><img src="images/image003.jpg" alt="" width="30"></a>Mairie de Roquemaure</p>
-                </ul>
-            </div>
-            <div id="fin">
-                <br>
-                <p><small><em>@Copyright 2022 - Tous droits réservés -</em></small></p>
-                <p><small><strong>By Christophe M.</strong></small></p>
-            </div>
-        </footer>       
         <script src="script.js"></script>
-    </body>
+     </body>
+    <footer>
+            <p><em>@Copyright 2022 - Tous droits réservés -</em></p>
+            <br>
+            <p><small><strong>By Christophe M.</strong></small></p>  
+    </footer>
 </html>
