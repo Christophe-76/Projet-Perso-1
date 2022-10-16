@@ -9,27 +9,29 @@
         <title>Le site du Sou des écoles de Roquemaure</title>
     </head>
     <body>
-            <img src="images/images/img-body.png" alt="" class="fond">
     <header>
+        <img src="images/images/img-body.png" alt="" class="fond">
+        
+        <img src="images/logo/logo2.png" alt="Logo" class="logo" width="30px" />
         <nav>
             <ul class="nav-flex">
-                    <li><a href="#about">About 🐱</a></li>
-                    <li><a href="#project">Project 🐹</a></li>
-                    <li><a href="#agenda">Agenda 🦊</a></li>
-                    <li><a href="#contact">Contact Us 🐻</a></li>
-                    <li><a href="#liens">Nos liens 🐼</a></li>
-                    <li><a href="#telecharge">Nos documents 🐻</a></li>
+                    <li><a href="#2">About 🐱</a></li>
+                    <li><a href="#1">Project 🐹</a></li>
+                    <li><a href="#item-4">Agenda 🦊</a></li>
+                    <li><a href="#contactForm">Contact Us 🐻</a></li>
+                    <li><a href="#item-10">Nos liens 🐼</a></li>
+                    <li><a href="#item-9">Nos documents 🐻</a></li>
                 </ul>
             
         </nav>
     </header>
     <main>
             <div class="angry-grid">
-                <section class="top">
+                <!-- Galerie photos Roquemaure<section class="top">
                     <div id="item-0">
-                        <img src="images/logo/logo2.png" alt="Logo" class="logo" />
+                        <img src="images/logo/logo2.png" alt="Logo" class="logo" width="30px" />
                     </div>
-                    <!-- Galerie photos Roquemaure-->
+                   
                     <div id="item-1">
                         <img src="images/images/img-fond.jpg" alt="image de fond" class="image" />
                         <img src="images/images/ecole-prim-1.jpg" alt="ecole primaire" class="image"/>
@@ -37,21 +39,23 @@
                         <img src="images/images/ecole-mat-1.jpg" alt="ecole maternelle" class="image"/>
                         <img src="images/images/img-fd-2.jpg" alt="image de fond2" class="image"/>
                     </div>
-                </section>
+                </section> Galerie photos Roquemaure-->
                 <!-- Galerie des affiches avec scroll et animation -->  
-                <div id="item-4">    
-                    <img src="images/icone/ico-agenda.png" alt="" class="ico-categorie" />
-                    <article class="aff-1">
-                        <h2>A vos Agendas</h2>
-                        <img src="images/affiches/agenda/Flyer-Manif.jpg" alt="évènements" class="card"/> 
-                    </article>
-                    <article class="aff-2">
-                        <h2>Les prochaines dates en affiche</h2>
-                        <p><img src="images/affiches/ag/ag.jpg" alt="ag" class="card"></p>
-                        <p><img src="images/affiches/prochaine/Vide Placard Petite Enfance.jpg" alt="placard" class="card"></p>
-                        <p><img src="images/affiches/prochaine/Marché de Noël.jpg" alt="noël" class="card"></p>
-                        <p><img src="images/affiches/prochaine/image diots.JPG" alt="diots" class="card"></p>
-                    </article>
+                <div id="item-4"> 
+                    <aside>  
+                        
+                        <article class="aff-1">
+                            <h2><img src="images/icone/ico-agenda.png" alt="" class="ico-categorie" />A vos Agendas</h2>
+                            <img src="images/affiches/agenda/Flyer-Manif.jpg" alt="évènements" class="card"/> 
+                        </article>
+                        <article class="aff-2">
+                            <h2>Les prochaines dates en affiche</h2>
+                            <p><img src="images/affiches/ag/ag.jpg" alt="ag" class="card"></p>
+                            <p><img src="images/affiches/prochaine/Vide Placard Petite Enfance.jpg" alt="placard" class="card"></p>
+                            <p><img src="images/affiches/prochaine/Marché de Noël.jpg" alt="noël" class="card"></p>
+                            <p><img src="images/affiches/prochaine/image diots.JPG" alt="diots" class="card"></p>
+                        </article>
+                    </aside> 
                 </div>
                 <!-- A propos de l'association / qui sommes-nous ?-->  
                 <section id="item-3">
@@ -60,7 +64,7 @@
     
                         <article class="about">
                             <br>
-                        <h2><img src="images/icone/ico-about.png" alt="" class="ico-categorie" />Qui sommes-nous ?</h2>
+                        <h2><img src="images/icone/ico-about.png" alt="" class="ico-categorie" id="2"/>Qui sommes-nous ?</h2>
                         <br>
                         <p>
                             
@@ -75,7 +79,7 @@
                         <br>
                         </article>
                         <article class="project">
-                            <h2><img src="images/icone/ico_project.png" alt="" class="ico-categorie" />Les projets réalisés</h2>
+                            <h2><img src="images/icone/ico_project.png" alt="" class="ico-categorie" id="1" />Les projets réalisés</h2>
                             <br>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quibusdam maxime ullam eligendi tempore! Magnam tenetur, hic dolorum architecto quo alias aperiam labore, laborum iure enim facere officiis voluptatum voluptatem.
@@ -89,20 +93,24 @@
                 
                 <!-- A propos de l'association / Galerie d'images (ajouter un icone au h2)--> 
                 <div id="item-2">
-                    <h2>Tout en images</h2>
-                    <article class="image-about">
-                        <!-- Mettre photos des manifestations passées avec un scroll et animations -->
-                        <img src="images/bourse/b-1.jpg" alt="manif">
-                        <img src="" alt="manif">
-                        <img src="images/carnaval/carn-1.jpg" alt="manif"> 
-                        <img src="images/carnaval/carn-2.jpg" alt="manif"> 
+                    <aside>
+                        <h2><img src="images/icone/ico-photos.svg" alt="" class="ico-categorie" />Tout en images</h2>
+                        <article class="image-about">
+                            <!-- Mettre photos des manifestations passées avec un scroll et animations -->
+                            <img src="images/bourse/b-1.jpg" alt="manif">
+                            <img src="images/carnaval/carn-3.jpg" alt="manif">
+                            <img src="images/carnaval/carn-1.jpg" alt="manif"> 
+                            <img src="images/carnaval/carn-2.jpg" alt="manif">
+                            
 
-                    </article>
+                        </article>
+                    </aside>
 
                 </div>
                 
                 
                 <div id="item-8">
+                    <br>
                         <h2><img src="images/icone/ico-contact.png" alt="" class="ico-categorie" />Contactez-nous</h2>
                             <form id="contactForm">
                                 <label for="name">NOM et Prénom :</label><br />
@@ -121,12 +129,22 @@
                             </form>
                 </div>
                 <div id="item-9">
-                        <h2>Récupérez vos dossiers ici</h2>
+                        <article class="telecharge">
+                            <br>
+                            <h2><img src="images/icone/ico-docs2.svg" alt="" class="ico-categorie" />Récupérez vos dossiers ici</h2>
                             <ul>
+
                                 <li><a href="docs/lettre marché de noël  2022.docx">Dossier inscription Marché de Noël</a></li>
+                            </ul>
+                            <br>
+                            <br><br><br>
+                        </article>
+                        <article class="envoi-docs">
+                        <h2><img src="images/icone/ico-docs2.svg" alt="" class="ico-categorie" />Renvoyer vos dossiers complétés ici</h2>
+                            <ul>
                                 <li><a href="mailto:lesou.inscriptions@gmail.com">Envoyer vos inscriptions ici</a></li>
                             </ul>
-                        
+                        </article>
                                 <!-- Mettre des boutons pour l'envoi/téléchargement des docs -->
                       
                 </div>

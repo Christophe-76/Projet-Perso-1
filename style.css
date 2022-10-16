@@ -113,6 +113,7 @@ a {
   justify-content: center;
   align-items: center;
   object-fit: contain;
+  position: sticky;
 }
 
 .image {
@@ -144,6 +145,8 @@ height : auto;
   width: 100%;
 
 }
+/* ---------passage zoom images------------*/
+
 
 
 /*--------------------------------------main----------------------------------------------*/
@@ -199,6 +202,7 @@ justify-content: center;
 
 
 width: 100%;
+
    
 }
 
@@ -246,7 +250,7 @@ width: 100%;
 width: 100%;
 border: solid #5B6DCD 5px;
 padding: 5px;
-  
+  align-items: center;
 grid-row-start: 2;
    grid-column-start: 1;
 
@@ -260,8 +264,22 @@ grid-row-start: 2;
    justify-content: space-between;
    align-items: center;
    flex-direction: column;
-   padding: 0px;
+   
 }
+
+.img-about img{
+  /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+
+-moz-animation: all 1s ease; /* Firefox */
+
+}
+.image-about:hover img {
+/* L'image est grossie de 25% */
+
+-moz-transform:scale(1.25); /* Firefox */
+
+}
+
 
 /* Txt A propos de l'association / qui sommes-nous ? + add Txt projets realises*/
 #item-3 {
@@ -274,8 +292,8 @@ grid-row-start: 2;
    grid-column-end: 7;
 
    
-background-repeat: no-repeat;
-text-align: justify;
+
+
 align-content: center;
 font-size: 20px;
 margin-left: 1px;
@@ -285,6 +303,40 @@ margin-right: 1px;
    
 
    
+}
+#item-3 h2{
+text-align: center;
+}
+#item-3 p{
+  text-align: justify;
+  
+  vertical-align: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+ 
+
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: 1.1;
+
+   
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    
+    text-align: justify;
+  
+  vertical-align: auto;
+  margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  }
 }
 
 
@@ -303,7 +355,7 @@ margin-right: 1px;
    display:flex;
    
    justify-content: space-between;
-   align-items: center;
+   
    flex-direction: column;
    padding: 0px;
    
@@ -314,6 +366,7 @@ margin-right: 1px;
 width: 100%;
 border: solid #5B6DCD 5px;
 padding: 5px;
+text-align: center;
 
 }
 .aff-2{
@@ -321,8 +374,35 @@ padding: 5px;
 width: 100%;
 border: solid #5B6DCD 5px;
 padding: 5px;
+text-align: center;
 
 }
+.aff-1 img{
+  /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+
+-moz-transition: all 1s ease; /* Firefox */
+
+}
+.aff-1:hover img {
+/* L'image est grossie de 25% */
+
+-moz-transform:scale(1.25); /* Firefox */
+
+}
+.aff-2 img{
+  /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+
+-moz-transition: all 1s ease; /* Firefox */
+
+}
+.aff-2:hover img {
+/* L'image est grossie de 25% */
+
+-moz-transform:scale(1.25); /* Firefox */
+
+}
+
+
 
 /* contactez-nous +   Documents d'inscriptions  */
 #item-8 {
@@ -373,12 +453,18 @@ padding: 5px;
 
    grid-row-end: 7;
    grid-column-end:7;
+   justify-content: center;
 }
 #item-9 h2{
   text-align: center;
 }  
   
- 
+#item-9 ul{
+  
+  display: grid;
+  
+}  
+  
 
 
 /* Les liens */
