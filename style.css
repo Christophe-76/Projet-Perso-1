@@ -34,11 +34,12 @@ a {
 
 
 
-.nav-flex {
+.nav-flex li{
   display: flex;
   justify-content: space-around;
+  width: 100vw;
   gap: 2%;
-  flex-direction: column;
+  
 }
 
 /*-----logo--Image--Affiche-----------------*/
@@ -82,28 +83,28 @@ height : auto;
 
 img .bouton1
 {
-  width: 2rem;
+  width: 2vw;
   
 }
 img .bouton2
 {
-  width: 2rem;
+  width: 10%;
 }
 img .bouton3
 {
-  width: 2rem;
+  width: 10%;
 }
 img .bouton4
 {
-  width: 2rem;
+  width: 10%;
 }
 img .bouton5
 {
-  width: 2rem;
+  width: 10%;
 }
 img .bouton6
 {
-  width: 2rem;
+  width: 10%;
 }
 /* ---------passage zoom images------------*/
 
@@ -252,12 +253,12 @@ font-size: 44px;
 /*------------- Galerie affiches-----------------*/
 #item-4 {
 background-color: #FF6672; 
-width: 50vw;
+width: 35vw;
 margin-left: 25vw;
 margin-right: 25vw;
 
 justify-content: center;
-
+text-align: center;
 padding: 3vw;
 }
 
@@ -334,13 +335,13 @@ padding-top: 2vw;
   background-color: #CD65FF; 
 
 
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   display: flex;
   flex-direction: column;
   margin-left: 25vw;
   margin-right: 25vw;
-  width: 50vw;
+  width: 35vw;
   text-align: center;
   margin-top: 10vw;
   padding-bottom: 2vw;
@@ -414,11 +415,12 @@ padding-top: 2vw;
 }
 
 
+
 form {
   margin: 2vw auto;
   width: 30vw;
   padding-top: 20px;
-  text-size-adjust: 12px  ;
+  
   
 }
 
@@ -440,7 +442,6 @@ input[type="submit"] {
   background: #283b63;
   color: white;
   border: none;
- 
   padding: 5px 10px;
 }
 
@@ -450,13 +451,14 @@ input[type="submit"] {
   background-color: #96FF66; 
  
   justify-content: center;
- width: 50vw;
+ width: 40vw;
   display: flex;
   flex-direction: column;
   margin-left: 25vw;
   margin-right: 25vw;
   margin-top: 10vw;
   padding-bottom: 2vw;
+  
 }
 #item-9 h2{
   text-align: center;
@@ -509,5 +511,5 @@ input[type="submit"] {
     font-size: 20px;
   }
 }
-*/
+
 
