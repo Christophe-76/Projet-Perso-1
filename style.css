@@ -28,7 +28,7 @@ ul, li {
   justify-content: center;
   align-items: flex-start;
   width: 100%;
-  height: 20px;
+  height: 2vw;
 }
 
 
@@ -106,7 +106,7 @@ img .bouton{
 
 /*-----logo--Image--Affiche-----------------*/
 .logo {
-  max-width : 100vw;
+  width : 10vw;
 
   justify-content: center;
   align-items: center;
@@ -177,23 +177,23 @@ height : auto;
   
     color: #333;
     
-    padding: 12px;
+    padding: 1vw;
     text-align: center;
-    padding-bottom: 5em;
+    padding-bottom: 2vw;
     justify-content: center;
   
   
 }
 #titre h2{
   font-family:'Spicy Rice', cursive;
-  font-size: 1.5em;
+  font-size: 1vw;
   
 }
 #titre h1{
  
     font-family: 'Spicy Rice', cursive;
     text-align: center;
-    font-size: 4em;
+    font-size: 3vw;
     color: #58A0FF;
     text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
     
@@ -209,7 +209,7 @@ height : auto;
 #item-10 {
   
   width: 100vw;
-  height: 3vw;
+  height: auto;
   
   padding-top: 1vw;
   background-color: #FCFF66;
@@ -223,22 +223,32 @@ height : auto;
   
 
 }
-#item-10 li:hover{
+#item-10 li a:hover{
   background-color: transparent;
   color: goldenrod;
 }
 #item-10 ul li a{
-  font-size: 1.5em;
+  font-size: 1vw;
+  justify-content: center;
+  text-align: center;
+  
+}
+#item-10 ul li p{
+  font-size: 1vw;
   justify-content: center;
   text-align: center;
   
 }
 #item-10 ul li{
   justify-content: start;
+  align-items: center;
+  
 }
 #item-10 ul li a img{
-  vertical-align: -9px;
-  
+  vertical-align: 0vw;
+  margin-right: 0.2vw;
+  width: 2vw;
+  align-items: center;
 }
 
 /* ------------------------------------------------------contenu secondaire--------------------------*/
@@ -260,7 +270,7 @@ add Txt projets realises-------*/
 
 #item-3 {
 align-content: center;
-font-size: 1.1em;
+font-size: 0.8vw;
 width: 100vw;
 justify-content: center;
 
@@ -287,7 +297,7 @@ border-top-left-radius: 10%;
 
 
 .project{
- background-color: #FF6672;
+ background-color: #ffe4c4;
 
 
 
@@ -305,20 +315,21 @@ border-top-left-radius: 10%;
 
 #item-3 h2{
 text-align: center;
-font-size: 2.1em;
+font-size: 2vw;
 font-family: 'Spicy Rice', cursive;
+text-decoration: red wavy underline;
 }
 
 #item-3 p{
  text-align: justify;
- font-size: 1.6em;
+ font-size: 1.2vw;
  vertical-align: auto;
  margin-left: auto;
  margin-right: auto;
  width: 75%;
  animation-duration: 3s;
  animation-name: slidein;
- animation-iteration-count: 1.1;
+ animation-iteration-count: 1;
 }
 
 @keyframes slidein {
@@ -340,7 +351,8 @@ font-family: 'Spicy Rice', cursive;
 
 /*------------- Galerie affiches-----------------*/
 #item-4 {
-background: linear-gradient(105deg, orange 50%, rgb(137, 143, 104));; 
+background-color: #00fa9a;
+
 width: 40%;
 max-height: 50vw;
 margin-left: 30%;
@@ -370,7 +382,7 @@ width: 100%;
 
 .aff-1 h2{
   text-align: center;
-font-size: 2.2em;
+font-size: 2vw;
 padding-bottom: 2vw;
 font-family: 'Spicy Rice', cursive;
 text-decoration: red wavy underline;
@@ -385,7 +397,7 @@ width: 100%;
 
 .aff-2 h2{
   text-align: center;
-font-size: 2.1em;
+font-size: 2vw;
 padding-bottom: 2vw;
 padding-top: 2vw;
 font-family: 'Spicy Rice', cursive;
@@ -432,7 +444,7 @@ text-decoration: red wavy underline;
 
 /* -------------------Galerie photos manifestations passées-------------------------------------*/
 #item-2 {
-  background: linear-gradient(135deg, rgb(122, 174, 122) 50%, cyan);
+  background-color: 	#ff6347;
   max-height: 50vw;
   overflow-y: scroll;
   
@@ -463,7 +475,7 @@ width: 100%;
 
 #item-2 h2{
   text-align: center;
-  font-size: 2.1em;
+  font-size: 2vw;
   padding-bottom: 2vw;
   padding-top: 2vw;
   font-family: 'Spicy Rice', cursive;
@@ -507,10 +519,11 @@ width: 100%;
  
 #item-8 h2{
   text-align: center;
-font-size: 2.1em;
+font-size: 2vw;
 
 padding-top: 2vw;
 font-family: 'Spicy Rice', cursive;
+text-decoration: red wavy underline;
 }
 
 #contactForm{
@@ -525,13 +538,13 @@ form {
   margin: 2vw auto;
   width: 30vw;
   padding-top: 20px;
-  font-size: 1.1em;
+  font-size: 1vw;
   
 }
 
 #contactForm label {
   line-height: 2;
-  font-size: 1.2em;
+  font-size: 1.2vw;
   
 }
 
@@ -539,9 +552,9 @@ input[type="text"],
 input[type="email"],
 textarea {
   width: 100%;
-  padding: 5px;
-  margin-bottom: 10px;
-  font-size: 1.1em;
+  padding: 1vwpx;
+  margin-bottom: 1vw;
+  font-size: 1vw;
 }
 
 input[type="submit"] {
@@ -549,7 +562,7 @@ input[type="submit"] {
   color: white;
   border-radius: 1em;
 
-  padding: 5px 10px;
+  padding: 1vw 2vw;
   
 
   font-size: 1.5em;
@@ -578,12 +591,12 @@ input[type="submit"] {
  
   
  
-  display: flex;
-  flex-direction: column;
+ 
   
-  margin-top: 10vw;
-  padding-bottom: 2vw;
+  margin-top: 9vw;
+  padding-bottom: 1vw;
   width: 40%;
+  height: auto;
   margin-left: 30%;
   margin-right: 30%;
   text-align: center;
@@ -591,7 +604,7 @@ input[type="submit"] {
   padding-right: 5%;
   position: relative;
     border: 2px solid #333;
-    padding: 3%;
+    
  border-bottom-right-radius: 4% 4%;  
  border-bottom-left-radius: 4% 4%; 
 border-top-left-radius: 4% 4%;
@@ -601,13 +614,13 @@ border-top-right-radius: 4% 4%;
 }
 #item-9 h2{
   text-align: center;
-  font-size: 2.1em;
+  font-size: 2vw;
   padding-bottom: 2vw;
-  padding-top: 1vw;
+  padding-top: 2vw;
   text-decoration: red wavy underline;
 } 
 .telecharge li a{
-  font-size: 1.6em;
+  font-size: 1.2vw;
   color: black;
   text-shadow: #FC0 1px 0 10px;
   
@@ -616,7 +629,7 @@ border-top-right-radius: 4% 4%;
   color: goldenrod;
 }
 .envoi-docs li a{
-  font-size: 1.6em;
+  font-size: 1.2vw;
   color: black;
   text-shadow: #FC0 1px 0 10px;
 
@@ -625,17 +638,18 @@ border-top-right-radius: 4% 4%;
   color: goldenrod;
   
 }
- 
+ /*----------------Scroll to top-------------------*/
+
 
 #scroll_to_top {
   position: fixed;
-  width: 50px;
+  width: 5vw;
   height: auto;
-  bottom: 50px;
+  bottom: 4vw;
   margin-right: 3%;
 }
 #scroll_to_top img {
-  width: 100px;
+  width: 5vw;
   
 }
 
@@ -651,33 +665,14 @@ border-top-right-radius: 4% 4%;
   }
 }
 
-@media screen and (max-width: 900px) {
-  #space_between_cards {
-    margin-top: 6000px;
-    width: 100%;
-  }
-}
 
-@media screen and (max-width: 900px) {
-  .nav_meal_a {
-    font-size: 20px;
-  }
-}
 
-#background-wrap {
-    bottom: 0;
-	left: 0;
-	position: fixed;
-	right: 0;
-	top: 0;
-	z-index: -1;
-}
 /*------------------------------------------------animations--bulles--------------------------------*/
 /* KEYFRAMES */
 
 @-webkit-keyframes animateBubble {
   0% {
-      margin-top: 1000px;
+      margin-top: 100%;
   }
   100% {
       margin-top: -100%;
@@ -686,7 +681,7 @@ border-top-right-radius: 4% 4%;
 
 @-moz-keyframes animateBubble {
   0% {
-      margin-top: 1000px;
+      margin-top: 100%;
   }
   100% {
       margin-top: -100%;
@@ -695,7 +690,7 @@ border-top-right-radius: 4% 4%;
 
 @keyframes animateBubble {
   0% {
-      margin-top: 1000px;
+      margin-top: 100%;
   }
   100% {
       margin-top: -100%;
@@ -704,28 +699,28 @@ border-top-right-radius: 4% 4%;
 
 @-webkit-keyframes sideWays { 
   0% { 
-      margin-left:0px;
+      margin: left 0vw;
   }
   100% { 
-      margin-left:50px;
+      margin: left 10vw;;
   }
 }
 
 @-moz-keyframes sideWays { 
   0% { 
-      margin-left:0px;
-  }
-  100% { 
-      margin-left:50px;
+    margin: left 0vw;
+}
+100% { 
+    margin: left 10vw;;
   }
 }
 
 @keyframes sideWays { 
   0% { 
-      margin-left:0px;
-  }
-  100% { 
-      margin-left:50px;
+    margin: left 0vw;
+}
+100% { 
+    margin: left 10vw;;
   }
 }
 
@@ -872,9 +867,9 @@ border-radius: 50%;
 -moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
 box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
 
-  height: 200px;
+  height: 12vw;
 position: absolute;
-width: 200px;
+width: 12vw;
 }
 
 .bubble:after {
@@ -895,10 +890,10 @@ border-radius: 50%;
 box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
 
 content: "";
-  height: 180px;
-left: 10px;
+  height: 11vw;
+left: 0.6vw;
 position: absolute;
-width: 180px;
+width: 11vw;
 }
 
 
@@ -907,9 +902,9 @@ width: 180px;
   display: flex;
 }
 .ballon {
-  width: 150px;
-  height: 165px;
-  padding: 40px;
+  width: 10vw;
+  height: 11vw;
+  padding: 1.4vw;
   display: inline-flex;
   justify-content: space-around;
   margin: auto;
@@ -917,33 +912,33 @@ width: 180px;
   position: relative;
   box-shadow: inset 6px 5px 35px -8px #333222;
   position: absolute;
-  top: 25%;
+  top: 10%;
   animation: moveBallon 6s infinite alternate;
 }
 @keyframes moveBallon {
   0% {
-    transform: translateY(10px) rotate(0deg);
+    transform: translateY(0.6vw) rotate(0deg);
   }
   25% {
-    transform: translateY(11px) rotate(7deg);
+    transform: translateY(0.7vw) rotate(7deg);
   }
   50% {
-    transform: translateY(-20px) rotate(-4deg);
+    transform: translateY(-1.5vw) rotate(-4deg);
   }
   100% {
-    transform: translateY(-50px) rotate(8deg);
+    transform: translateY(-3vw) rotate(8deg);
   }
 }
 #balloon1 {
   background-color: rgba(30, 203, 225, 0.8);
-  left: 4%;
+  left: 1%;
   animation-delay: 5s;
 }
 #balloon2 {
   background-color: rgba(150, 30, 225, 0.8);
   left: 13%;
   animation-delay: 4s;
-  top: 10%;
+  top: 18%;
 }
 #balloon3 {
   background-color: rgba(225, 52, 30, 0.8);
@@ -952,7 +947,7 @@ width: 180px;
 }
 #balloon4 {
   background-color: rgba(106, 225, 30, 0.8);
-  left: 28%;
+  left: 32%;
   animation-delay: 4s;
 }
 #balloon1::after {
@@ -984,7 +979,7 @@ width: 180px;
   width: 0;
   height: 0;
   position: absolute;
-  bottom: -6px;
+  bottom: -0.4vw;
   border-width: 0px 8px 8px 8px;
   border-style: none solid solid solid;
   border-color: transparent transparent red transparent;
@@ -993,11 +988,12 @@ width: 180px;
   left: 44%;
 }
 .thread {
-  height: 90px;
-  width: 1px;
+  height: 4vw;
+  width: 0.1vw;
   position: absolute;
   border: 1px solid transparent;
-  bottom: -95px;
+  bottom: -4.3vw;
+  
   background-color: red;
   /* border-style: dotted; */
   z-index: -1;
