@@ -45,60 +45,61 @@ img .bouton{
   
  
 }
+
 .nav-flex{
   text-align: start;
   
-  margin-right: 1vw;
-  margin-left: 42vw;
+  margin-right: 1.3vw;
+  margin-left: 40vw;
   padding-top: 10vw;
   
 }
+/* -- image bouton 1 - Nous connaitre ---*/
 .bouton1{
-  width: 24%;
+  width: 26%;
   position: sticky;
   
   
   
-  
+/* -- image bouton 2 - Agenda ---*/  
 }
 .bouton2{
-  width: 24%;
+  width: 26%;
   position: sticky;
   margin-left: 5vw;
   margin-right: 5vw;
- 
-  
 }
+/* -- image bouton 3 - Nos actions ---*/
 .bouton3{
-  width: 24%;
+  width: 26%;
   position: sticky;
   margin-top: 3vw;
   
 }
+/* -- image bouton 4 - contactez-nous ---*/
 .bouton4{
-  width: 24%;
+  width: 26%;
   position: sticky;
   margin-left: 2vw;
 }
+/* -- image bouton 5 - sou-en-images ---*/
 .bouton5{
-  width: 24%;
+  width: 26%;
   position: sticky;
   margin-right: 5vw;
-  margin-left: 5vw;
+  margin-left: 3vw;
 }
+/* -- image bouton 6 - documents-utiles ---*/
 .bouton6{
-  width: 24%;
+  width: 26%;
   position: sticky;
   margin-right: 0vw;
   margin-top: 4vw;
+  
 }
-.bouton6{
-  width: 24%;
-  position: sticky;
-  margin-top: 5vw;
-}
+/* -- image bouton 7 - Les liens ---*/
 .bouton7{
-  width: 24%;
+  width: 26%;
   position: relative;
   margin-top: 5vw;
   
@@ -152,7 +153,8 @@ height : auto;
 }
 
 
-/*--------------------------------------main----------------------------------------------*/
+/*--------------------------------------Contenu page principale / backround, boutons, liens et mise en page-------------------------*/
+
 #page{
   background-image:url('images/images/image-site.png');
          background-repeat: no-repeat;
@@ -199,7 +201,7 @@ height : auto;
     vertical-align: -10vw;
   }
 
-/* Les liens */
+/* -----Les liens----------- */
 
 #item-10 {
   
@@ -240,13 +242,13 @@ height : auto;
   
 }
 #item-10 ul li a img{
-  vertical-align: 0vw;
+  vertical-align: -0.6vw;
   margin-right: 0.2vw;
   width: 2vw;
   align-items: center;
 }
 
-/* ------------------------------------------------------contenu secondaire--------------------------*/
+/* ------------------------------------------contenu secondaire- / fond écran + galerie d'image, contact, textes-------------------------*/
 .angry-grid {
  
   background-color: #00b4ff;
@@ -270,7 +272,7 @@ width: 100vw;
 justify-content: center;
 
 }
-
+/* ---Txt qui sommes-nous ? --*/
 .about{
  background-color: #FFC966;
 
@@ -290,7 +292,7 @@ border-top-left-radius: 10%;
    
  
 
-
+/* ---Txt projets realises-------*/
 .project{
  background-color: #ffe4c4;
 
@@ -314,7 +316,7 @@ font-size: 2vw;
 font-family: 'Spicy Rice', cursive;
 text-decoration: red wavy underline;
 }
-
+/* ---Animation sur les textes, le texte arrive de la droite et se met en palxe au centre de la box avec 1 durée 5 secondes-------*/
 #item-3 p{
  text-align: justify;
  font-size: 1.2vw;
@@ -322,7 +324,7 @@ text-decoration: red wavy underline;
  margin-left: auto;
  margin-right: auto;
  width: 75%;
- animation-duration: 3s;
+ animation-duration: 5s;
  animation-name: slidein;
  animation-iteration-count: 1;
 }
@@ -344,7 +346,7 @@ text-decoration: red wavy underline;
  }
 }
 
-/*------------- Galerie affiches-----------------*/
+/*------------- Galerie affiches-+ agenda----------------*/
 #item-4 {
 background-color: #00fa9a;
 
@@ -407,7 +409,7 @@ text-decoration: red wavy underline;
 
    
 }
-/* -----------------------------------passage zoom images---------------------------------------------------------*/
+/* ---------------------------------Passage en zoom images avec le hover-------------------*/
 .aff-1 img{
  /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
 
@@ -423,6 +425,7 @@ text-decoration: red wavy underline;
 -webkit-transform: scale(1.25);/*Chrome*/
 }
 
+/* ---------------------------------Passage en zoom images avec le hover-------------------*/
 
 .aff-2 img{
  /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
@@ -478,7 +481,7 @@ width: 100%;
   text-decoration: red wavy underline;
 }
 
-
+/* ---------------------------------Passage en zoom images avec le hover-------------------*/
 .img-about img{
  /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
 
@@ -566,6 +569,8 @@ input[type="submit"] {
   color: #333;
   padding: .25em;
 
+  /* ---------------------------------Mise en forme avec couleur dégradée du bouton submit -------------------*/
+
   /* border-width defines the width the blue gradient background (3) */
   border: .25em solid transparent;
 
@@ -580,17 +585,26 @@ input[type="submit"] {
 
 
 
- /*---------------  Documents d'inscriptions--------------------*/
+ /*------------------------ docs à télécharger, à renvoyer-------------------------------*/
+ 
+ 
  #item-9 {
 
   background-color: #96FF66; 
- 
   
- 
- 
-  
+ background-image: url(images/images/docs-fond2.png);
+ background-repeat: no-repeat;
+
+width: 28vw;
+
+background-position-y: 4vw;
+background-position-x: -4.5vw;
+ background-attachment: scroll, local;
+ background-size: 43%;
+
+   
   margin-top: 9vw;
-  padding-bottom: 1vw;
+  padding-bottom: 0.5vw;
   width: 40%;
   height: auto;
   margin-left: 30%;
@@ -617,7 +631,7 @@ border-top-right-radius: 4% 4%;
 } 
 .telecharge li a{
   font-size: 1.2vw;
-  color: black;
+  color: blue;
   text-shadow: #FC0 1px 0 10px;
   
 }
@@ -626,7 +640,7 @@ border-top-right-radius: 4% 4%;
 }
 .envoi-docs li a{
   font-size: 1.2vw;
-  color: black;
+  color: blue;
   text-shadow: #FC0 1px 0 10px;
 
 } 
@@ -651,7 +665,7 @@ border-top-right-radius: 4% 4%;
 }
 
 
-/* Responsive */
+/* ------------------Responsive------------------------- */
 
 @media screen and (max-width: 700px) {
   #page{
@@ -695,14 +709,69 @@ border-top-right-radius: 4% 4%;
           #titre h2 img{
             vertical-align: -10vw;
           }
+          #item-9 {
+            background-image: none;
+          }
+
   
 
 }
 
+@media screen and (min-width: 374px) {
+  
+  #page{
+  background-image:url('images/images/image-site.png');
+         background-repeat: no-repeat;
+         background-attachment: fixed;
+         background-size: 100% 100%;
+        
+         height: 100% 100%;}
+ 
+
+  #titre{
+          background-color: #96FF66;
+         width: 100vw;
+         height: auto;
+          
+            color: #333;
+            
+            padding: 0vw;
+            text-align: center;
+            padding-bottom: 0;
+            justify-content: center;
+          
+          
+        }
+
+        #titre h2{
+          font-family:'Spicy Rice', cursive;
+          font-size: 0.5vw;
+          
+        }
+        #titre h1{
+         
+            font-family: 'Spicy Rice', cursive;
+            text-align: center;
+            font-size: 1.5vw;
+            color: #58A0FF;
+            text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+            
+           
+            
+          }
+          #titre h2 img{
+            vertical-align: -10vw;
+          }
+
+    
+          #item-9 {
+            background-image: none;
+          }
+
+}
 
 
-
-/*------------------------------------------------animations--bulles--------------------------------*/
+/*------------------------------------------------animations des bulles---------------------------------*/
 /* KEYFRAMES */
 
 @-webkit-keyframes animateBubble {
@@ -932,13 +1001,13 @@ width: 11vw;
 }
 
 
-/* --------------------------------------------animations-ballons-----------------------------------------------*/
+/* --------------------------------------------animations des ballons-----------------------------------------------*/
 .ballon_container {
   display: flex;
 }
 .ballon {
-  width: 10vw;
-  height: 11vw;
+  width: 8vw;
+  height: 9vw;
   padding: 1.4vw;
   display: inline-flex;
   justify-content: space-around;
