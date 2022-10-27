@@ -131,6 +131,7 @@ height : auto;
    align-items: center;
    object-fit: contain;
 }
+
 .manif{
   width : 10%;
 
@@ -181,7 +182,7 @@ height : auto;
   
   
 }
-#titre h2{
+#titre p h2{
   font-family:'Spicy Rice', cursive;
   font-size: 2vw;
   
@@ -402,7 +403,7 @@ text-decoration: red wavy underline;
 }
 
 .manif{
-  width : 10%;
+  width : 100%;
 
   justify-content: center;
    align-items: center;
@@ -492,8 +493,8 @@ width: 100%;
 .image-about img:hover {
 /* L'image est grossie de 50% */
 
--moz-transform:scale(1.50); /* Firefox */
--webkit-transform: scale(1.50);/*Chrome*/
+-moz-transform:scale(1.25); /* Firefox */
+-webkit-transform: scale(1.25);/*Chrome*/
 }
 
 /* ----------------------------contactez-nous--------------------  */
@@ -709,15 +710,13 @@ border-top-right-radius: 4% 4%;
           #titre h2 img{
             vertical-align: -10vw;
           }
-          #item-9 {
-            background-image: none;
-          }
+          
 
   
 
 }
 
-@media screen and (min-width: 374px) {
+@media screen and (min-width: 375px) {
   
   #page{
   background-image:url('images/images/image-site.png');
@@ -745,7 +744,7 @@ border-top-right-radius: 4% 4%;
 
         #titre h2{
           font-family:'Spicy Rice', cursive;
-          font-size: 0.5vw;
+          font-size: 1vw;
           
         }
         #titre h1{
