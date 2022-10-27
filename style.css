@@ -494,10 +494,10 @@ width: 100%;
 
 }
 .image-about img:hover {
-/* L'image est grossie de 50% */
+/* L'image est grossie de 125% */
 
--moz-transform:scale(1.50); /* Firefox */
--webkit-transform: scale(1.50);/*Chrome*/
+-moz-transform:scale(2.25); /* Firefox */
+-webkit-transform: scale(2.25);/*Chrome*/
 }
 
 /* ----------------------------contactez-nous--------------------  */
