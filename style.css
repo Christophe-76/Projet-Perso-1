@@ -58,7 +58,7 @@ img .bouton{
 .bouton1{
   width: 26%;
   position: sticky;
-  
+  filter: drop-shadow(8px 10px 10px black);
   
   
 /* -- image bouton 2 - Agenda ---*/  
@@ -68,19 +68,21 @@ img .bouton{
   position: sticky;
   margin-left: 5vw;
   margin-right: 5vw;
+  filter: drop-shadow(16px 10px 10px black);
 }
 /* -- image bouton 3 - Nos actions ---*/
 .bouton3{
   width: 26%;
   position: sticky;
   margin-top: 3vw;
-  
+  filter: drop-shadow(6px 10px 8px black);
 }
 /* -- image bouton 4 - contactez-nous ---*/
 .bouton4{
   width: 26%;
   position: sticky;
   margin-left: 2vw;
+  filter: drop-shadow(20px 10px 10px black);
 }
 /* -- image bouton 5 - sou-en-images ---*/
 .bouton5{
@@ -88,6 +90,7 @@ img .bouton{
   position: sticky;
   margin-right: 5vw;
   margin-left: 3vw;
+  filter: drop-shadow(16px 8px 10px black);
 }
 /* -- image bouton 6 - documents-utiles ---*/
 .bouton6{
@@ -95,14 +98,14 @@ img .bouton{
   position: sticky;
   margin-right: 0vw;
   margin-top: 4vw;
-  
+  filter: drop-shadow(16px 10px 7px black);
 }
 /* -- image bouton 7 - Les liens ---*/
 .bouton7{
   width: 26%;
   position: relative;
   margin-top: 5vw;
-  
+  filter: drop-shadow(18px 10px 10px black);
 }
 
 
