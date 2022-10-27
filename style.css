@@ -183,7 +183,7 @@ height : auto;
 }
 #titre h2{
   font-family:'Spicy Rice', cursive;
-  font-size: 1vw;
+  font-size: 2vw;
   
 }
 #titre h1{
@@ -551,7 +551,7 @@ input[type="text"],
 input[type="email"],
 textarea {
   width: 100%;
-  padding: 1vwpx;
+  padding: 1vw;
   margin-bottom: 1vw;
   font-size: 1vw;
 }
