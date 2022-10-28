@@ -144,7 +144,7 @@ height : auto;
    
 }
 .ico-categorie
-{width: 10%;
+{width: 24%;
   padding-right: 2%;
   text-align: center;
   vertical-align: -1vw;
@@ -155,7 +155,12 @@ height : auto;
   text-align: center;
   vertical-align: -1vw;
 }
-
+.ico-categorie3
+{width: 18%;
+  padding-right: 2%;
+  text-align: center;
+  vertical-align: -1vw;
+}
 
 /*--------------------------------------Contenu page principale / backround, boutons, liens et mise en page-------------------------*/
 
@@ -447,7 +452,7 @@ text-decoration: red wavy underline;
 
 /* -------------------Galerie photos manifestations passées-------------------------------------*/
 #item-2 {
-  background-color: 	#F09154;
+  background-color: 	#EDCC47;
   max-height: 50vw;
   overflow-y: scroll;
   
@@ -594,21 +599,16 @@ input[type="submit"] {
  
  #item-9 {
 
-  background-color: #F29C94; 
-  
- background-image: url(images/images/docs-fond2.png);
- background-repeat: no-repeat;
+  background-color: black; 
+
 
 width: 28vw;
 
-background-position-y: 4vw;
-background-position-x: -4.5vw;
- background-attachment: scroll, local;
- background-size: 43%;
+
 
    
   margin-top: 9vw;
-  padding-bottom: 0.5vw;
+  padding-bottom: 0vw;
   width: 40%;
   height: auto;
   margin-left: 30%;
@@ -635,7 +635,7 @@ border-top-right-radius: 4% 4%;
 } 
 .telecharge li a{
   font-size: 1.2vw;
-  color: blue;
+  color: white;
   text-shadow: #FC0 1px 0 10px;
   
 }
@@ -644,7 +644,7 @@ border-top-right-radius: 4% 4%;
 }
 .envoi-docs li a{
   font-size: 1.2vw;
-  color: blue;
+  color: white;
   text-shadow: #FC0 1px 0 10px;
 
 } 
@@ -671,7 +671,7 @@ border-top-right-radius: 4% 4%;
 
 /* -----------------------------------------------------Responsive------------------------- */
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 700px)  {
   #page{
   background-image:url('images/images/image-site.png');
          background-repeat: no-repeat;
