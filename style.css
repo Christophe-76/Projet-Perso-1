@@ -669,7 +669,13 @@ border-top-right-radius: 4% 4%;
 }
 
 
-/* -----------------------------------------------------Responsive------------------------- */
+/* -----------------------------------------------------Responsive-------------------------
+faire @media screen and (min-width: 1024px)  {}  + @media screen and (min-width: 768px) and (max-width: 1023px)  {}  agrandir le textes, reduire les marges
++ @media screen and (min-width: 600px) and (max-width: 767px)  {}   abaisser les boutons + agrandir les onglets, les textes, réduire les espaces + mettre que les icones des liens-----------
++ @media screen and (min-width: 375px) and (max-width: 599px)  {}   menu burger dans titre + enlever background et boutons-----------
++ @media screen and (min-width: 240px) and (max-width: 374px)  {}   a voir-------------
+ */
+
 
 @media screen and (max-width: 700px)  {
   #page{
